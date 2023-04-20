@@ -1,0 +1,14 @@
+{
+  "resourceName": "storageAws",
+  "policyUUID": "b38b180f",
+  "bucketName": "storageaws",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {},
+  "triggerFunction": "s3trigger"
+}

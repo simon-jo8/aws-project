@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "fooBar": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

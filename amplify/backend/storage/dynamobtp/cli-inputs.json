@@ -1,0 +1,18 @@
+{
+  "resourceName": "dynamobtp",
+  "tableName": "dynamobtp",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "emailIndex",
+      "partitionKey": {
+        "fieldName": "email",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

@@ -1,0 +1,7 @@
+{
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "id": "2db29de0-ebc6-4919-8fbc-4ae502bc359b",
+    "webhook": "https://webhook.site/206eb452-6a9c-4bdb-84a9-70006c55d3d6"
+  }
+}

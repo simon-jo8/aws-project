@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "paths": {
+    "/getUser": {
+      "name": "/getUser",
+      "lambdaFunction": "getUser",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/createUser": {
+      "name": "/createUser",
+      "lambdaFunction": "createUser",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/urlGetS3": {
+      "name": "/urlGetS3",
+      "lambdaFunction": "urlGetS3",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/sendData": {
+      "name": "/sendData",
+      "lambdaFunction": "sendData",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

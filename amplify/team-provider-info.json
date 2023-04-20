@@ -1,0 +1,109 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tpaws-dev-91710-authRole",
+      "UnauthRoleArn": "arn:aws:iam::341557181128:role/amplify-tpaws-dev-91710-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::341557181128:role/amplify-tpaws-dev-91710-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-tpaws-dev-91710-deployment",
+      "UnauthRoleName": "amplify-tpaws-dev-91710-unauthRole",
+      "StackName": "amplify-tpaws-dev-91710",
+      "StackId": "arn:aws:cloudformation:eu-west-1:341557181128:stack/amplify-tpaws-dev-91710/09ae4ea0-ddb9-11ed-bd2e-06600a68c919",
+      "AmplifyAppId": "d2lcm3a663e3xs"
+    },
+    "categories": {
+      "storage": {
+        "dynamobtp": {},
+        "storageAws": {}
+      },
+      "function": {
+        "createUser": {
+          "deploymentBucketName": "amplify-tpaws-dev-91710-deployment",
+          "s3Key": "amplify-builds/createUser-72727371376756756d61-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-tpaws-dev-91710-deployment",
+          "s3Key": "amplify-builds/getUser-37436d432f396f577876-build.zip"
+        },
+        "urlGetS3": {
+          "deploymentBucketName": "amplify-tpaws-dev-91710-deployment",
+          "s3Key": "amplify-builds/urlGetS3-52515268577872545372-build.zip"
+        },
+        "dynamobtp": {},
+        "storageAws": {}
+      },
+      "api": {
+        "users": {}
+      },
+      "auth": {
+        "tpaws851088b0": {}
+      }
+    }
+  },
+  "simon": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tpaws-simon-145144-authRole",
+      "UnauthRoleArn": "arn:aws:iam::341557181128:role/amplify-tpaws-simon-145144-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::341557181128:role/amplify-tpaws-simon-145144-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+      "UnauthRoleName": "amplify-tpaws-simon-145144-unauthRole",
+      "StackName": "amplify-tpaws-simon-145144",
+      "StackId": "arn:aws:cloudformation:eu-west-1:341557181128:stack/amplify-tpaws-simon-145144/c64ea4a0-dde7-11ed-ba31-06aa1e08fd37",
+      "AmplifyAppId": "d2lcm3a663e3xs"
+    },
+    "categories": {
+      "auth": {
+        "tpaws851088b0": {}
+      },
+      "function": {
+        "createUser": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/createUser-6557425239737554376c-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/getUser-70414c445572694d786e-build.zip"
+        },
+        "urlGetS3": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/urlGetS3-52515268577872545372-build.zip"
+        },
+        "dynamobtp": {},
+        "storageAws": {},
+        "sendData": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/sendData-34705535445251317869-build.zip"
+        },
+        "worker": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/worker-4f6e3775634d57364677-build.zip"
+        },
+        "fooBar": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/fooBar-2f4a336d7a2f4950744c-build.zip"
+        },
+        "processLambda": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/processLambda-47486c72584771736845-build.zip"
+        },
+        "resultStepFunction": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/resultStepFunction-6c75705257357a6e6a43-build.zip"
+        },
+        "s3trigger": {
+          "deploymentBucketName": "amplify-tpaws-simon-145144-deployment",
+          "s3Key": "amplify-builds/s3trigger-33613778353874355255-build.zip"
+        }
+      },
+      "api": {
+        "users": {}
+      },
+      "storage": {
+        "dynamobtp": {},
+        "storageAws": {},
+        "fooBar": {}
+      }
+    }
+  }
+}

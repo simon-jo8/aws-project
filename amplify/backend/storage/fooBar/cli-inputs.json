@@ -1,0 +1,10 @@
+{
+  "resourceName": "fooBar",
+  "tableName": "fooBar",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
